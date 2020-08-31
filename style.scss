@@ -6,7 +6,7 @@
 	--color-orange: #ef8354;
 	--color-purple: #6a5889;
 	--color-purple-light: #8c80a1;
-	--color-red: #ae1712;
+	--color-red: #b0504d;
 	--color-green: #177e89;
 	--color-dark-green: #084c61;
 	--color-blue: #bdd5ea;
@@ -22,7 +22,7 @@
 	--font-medium: 14px;
 	--font-small: 12px;
 
-	--text-color: #646464;
+	--text-color: #565656;
 	--strong-color: #959595;
 	--link-color: var(--color-purple);
 	--color-background: var(--color-grey);
@@ -143,22 +143,21 @@ strong {
 }
 
 // ref link
-.rm-page-ref-link-color {
-	color: var(--color-red) !important;
-}
-
-// ref-brackets
-.rm-page-ref-brackets {
-	color: var(--color-red) !important;
+.rm-page-ref-link-color, .rm-page-ref-brackets {
+	color: var(--color-purple) !important;
+	font-weight: bold;
 }
 
 // ref tag
 .rm-page-ref-tag {
 	color: var(--color-white) !important;
-	background-color: var(--color-purple-light) !important;
+	background-color: var(--color-red) !important;
 	padding: 0 5px !important;
 	font-size: var(--font-medium);
 	border-radius: 2px;
+	&:hover {
+	    text-decoration: none;
+	}
 }
 
 // reference block
@@ -225,7 +224,7 @@ strong {
 		.simple-bullet-inner {
 			width: 8px;
 			height: 8px;
-			background-color: var(--color-background);
+			background-color: var(--color-dark-grey);
 		}
 	}
 }
