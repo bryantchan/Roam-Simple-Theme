@@ -105,12 +105,12 @@ strong {
   background-color: var(--color-background) !important; }
 
 .rm-page-ref-link-color, .rm-page-ref-brackets {
-  color: var(--color-purple) !important;
+  color: var(--color-red) !important;
   font-weight: bold; }
 
 .rm-page-ref-tag {
   color: var(--color-white) !important;
-  background-color: var(--color-red) !important;
+  background-color: var(--color-purple-light) !important;
   padding: 0 5px !important;
   font-size: var(--font-medium);
   border-radius: 2px; }
