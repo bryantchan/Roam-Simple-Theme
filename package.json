@@ -6,6 +6,9 @@
   "author": "Bryant <bryantandk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "node-sass": "^4.14.1"
   },
   "scripts": {
